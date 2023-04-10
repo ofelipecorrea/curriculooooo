@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(wpp24.jpg);
+    background-size: cover;
+
+}
+
+#logo {
+    position: absolute;
+    width: 25vh;
+    height: 9vh;
+    left: 12vh;
+    top: 7vh;
+}
+
+
+header ul {
+    text-align: center;
+    padding-top: 15px;
+}
+
+header ul li {
+    display: inline-flex;
+    vertical-align: middle;
+    padding: 15px;
+    flex-direction: column-reverse;
+}
+
+header ul li a {
+    background-color: #3f3f3f;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+ul li :hover {
+    color: #000000;
+}
+
+.backgroundcolor1 {
+    position: absolute;
+    width: 47vw;
+    height: 23vh;
+    left: 8vw;
+    top: 25.7vh;
+
+    background: #7E7E7E;
+    border-radius: 20px;
+}
+
+.backgroundprincipal {
+    position: absolute;
+    width: 48vw;
+    height: 48vh;
+    left: 7.5vw;
+    top: 24.5vh;
+
+    background: #343434;
+    border-radius: 15px;
+}
+
+.textobackground {
+    position: absolute;
+    width: 45vw;
+    height: 65vh;
+    left: 9vw;
+    top: 27vh;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 390px) {
+    #logo {
+        width: 40vw;
+        height: auto;
+        left: 30vw;
+        top: 20vw;
+    }
+
+    header ul {
+        border: 0;
+        padding: 0;
+        padding-top: 20px;
+        /* exemplo de valor de padding-top */
+    }
+
+    header ul li {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    header ul li a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .backgroundprincipal {
+        width: 85vw;
+        height: 165vh;
+        left: 7vw;
+        top: 25vh;
+        background: #343434;
+        border-radius: 15px;
+    }
+
+    .textobackground {
+        position: absolute;
+        width: 80vw;
+        height: 102vh;
+        left: 9vw;
+        top: 27vh;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+        font-size: 1s5px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
