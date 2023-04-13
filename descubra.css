@@ -51,13 +51,13 @@ main p {
   position: absolute;
   width: 882px;
   height: 410px;
-  left: 3vw;
-  top: 40vh;
+  left: 7.5vw;
+  top: 44vh;
 
   font-style: normal;
   font-family: monospace;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 25px;
   line-height: 34px;
   text-align: center;
 
@@ -66,10 +66,10 @@ main p {
 
 .background {
   position: absolute;
-  width: 60vw;
+  width: 52vw;
   height: 21vh;
-  left: 2vw;
-  top: 39vh;
+  left: 5vw;
+  top: 42.5vh;
 
   background: #3f3f3f;
   opacity: 0.9;
@@ -79,10 +79,10 @@ main p {
 
 .background2 {
   position: absolute;
-  width: 60vw;
-  height: 20.5vh;
-  left: 2vw;
-  top: 62vh;
+  width: 52vw;
+  height: 21vh;
+  left: 5vw;
+  top: 65vh;
 
   background: #3f3f3f;
   opacity: 0.9;
@@ -94,7 +94,7 @@ main p {
   width: 150px;
   height: 150px;
   left: 68vw;
-  top: 38.5vh;
+  top: 39.5vh;
 
   height: 2.5vh;
   width: 11vw;
@@ -110,10 +110,10 @@ main p {
 
 .background3 {
   position: absolute;
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   left: 69vw;
-  top: 43vh;
+  top: 45vh;
 
   background: url(html.png);
   background-position: center;
@@ -141,7 +141,7 @@ main p {
   width: 150px;
   height: 150px;
   left: 80vw;
-  top: 38.5vh;
+  top: 39.5vh;
 
   height: 2.5vh;
   width: 11vw;
@@ -157,10 +157,10 @@ main p {
 
 .background4 {
   position: absolute;
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   left: 81vw;
-  top: 43vh;
+  top: 45vh;
 
   background: url(js.png);
   background-position: center;
@@ -204,10 +204,10 @@ main p {
 
 .background5 {
   position: absolute;
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   left: 69vw;
-  top: 70vh;
+  top: 71vh;
 
   background: url(golang.png);
   background-position: center;
@@ -251,10 +251,10 @@ main p {
 
 .background6 {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   left: 81vw;
-  top: 69vh;
+  top: 70vh;
   background: url(css.png);
   background-position: center;
   background-size: cover;
@@ -276,23 +276,13 @@ main p {
   }
 }
 
-.progressobackground {
-  position: absolute;
-  width: 27vw;
-  height: 55vh;
-  left: 66.5vw;
-  top: 36vh;
-
-  background: #3f3f3f;
-  border-radius: 40px;
-}
 
 .progessotext p {
   position: absolute;
   width: 525px;
   height: 120px;
-  left: 63vw;
-  top: 23vh;
+  left: 66vw;
+  top: 24vh;
 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
@@ -328,67 +318,272 @@ main p {
     width: 50vw;
     height: 18vh;
     left: 25vw;
-    top: 6vh;
+    top: 18vh;
   }
 
   main p {
     width: 90vw;
     height: auto;
     left: 5vw;
-    top: 33vh;
+    top: 42vh;
     font-size: 14px;
     line-height: 28px;
   }
 
   .background {
-    width: 90vw;
-    height: 30vh;
-    left: 5vw;
-    top: 31vh;
+    width: 92vw;
+    height: 35vh;
+    left: 4vw;
+    top: 41vh;
   }
 
   .background2 {
-    width: 90vw;
-    height: 28vh;
-    left: 5vw;
-    top: 62vh;
+    width: 92vw;
+    height: 36vh;
+    left: 4vw;
+    top: 78.5vh;
+  }
+
+
+  .header ul {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .header ul li {
+    display: inline-flex;
+    vertical-align: middle;
+    padding: 15px;
+    flex-direction: column-reverse;
+  }
+
+  .header ul li a {
+    background-color: #3f3f3f;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .barra-progresso {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 9vw;
+    top: 135vh;
+
+    height: 2.5vh;
+    width: 80vw;
+    height: 4vh;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  .progresso {
+    height: 100%;
+    background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+    border-radius: 10px;
   }
 
   .background3 {
-    width: 30vw;
-    height: 30vh;
-    left: 17vw;
-    top: 100vh;
-    border-radius: 50%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 16vw;
+    top: 145vh;
+
+    background: url(html.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 255px;
+    animation: zoomInOut 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .barra-progresso4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 9vw;
+    top: 190vh;
+
+    height: 2.5vh;
+    width: 80vw;
+    height: 4vh;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  .progresso4 {
+    height: 100%;
+    background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+    border-radius: 10px;
   }
 
   .background4 {
-    width: 30vw;
-    height: 30vh;
-    left: 57vw;
-    top: 100vh;
-    border-radius: 50%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 16vw;
+    top: 200vh;
+
+    background: url(js.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 155px;
+    animation: zoomInOut 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .barra-progresso5 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 9vw;
+    top: 244vh;
+
+    height: 2.5vh;
+    width: 80vw;
+    height: 4vh;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  .progresso5 {
+    height: 100%;
+    background: linear-gradient(to right, #ff0000 0%, #ff00f2 95%);
+    border-radius: 10px;
   }
 
   .background5 {
-    width: 30vw;
-    height: 30vh;
-    left: 17vw;
-    top: 117vh;
-    border-radius: 50%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 16vw;
+    top: 254vh;
 
+    background: url(golang.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 155px;
+    animation: zoomInOut 3s ease-in-out infinite alternate;
+  }
+
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .barra-progresso6 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 9vw;
+    top: 298vh;
+
+    height: 2.5vh;
+    width: 80vw;
+    height: 4vh;
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  .progresso6 {
+    height: 100%;
+    background: linear-gradient(to right, #ff0000 0%, #4800ff 95%);
+    border-radius: 10px;
   }
 
   .background6 {
-    width: 30vw;
-    height: 30vh;
-    left: 57vw;
-    top: 117vh;
-    border-radius: 50%;
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 16vw;
+    top: 305vh;
+    background: url(css.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 155px;
+    animation: zoomInOut 3s ease-in-out infinite alternate;
   }
 
-  header ul li a {
-    font-size: 16px;
-    padding: 8px 16px;
+  @keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .progessotext {
+    position: absolute;
+    width: 525px;
+    height: 120px;
+    top: 94vh;
+    right: 42vw;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 93px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .progessotextbackground {
+    position: absolute;
+    width: 90vw;
+    height: 10vh;
+    left: 4vw;
+    top: 120vh;
+
+    background: #3f3f3f;
+    border-radius: 30px;
   }
 }

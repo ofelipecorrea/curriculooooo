@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
-* {
-  margin: 0;
-}
-
 body {
   background-image: url(wpp23.jpg);
   background-repeat: no-repeat;
@@ -55,7 +51,7 @@ main p {
   width: 100vh;
   height: 25vh;
   left: 4vw;
-  top: 37vh;
+  top: 33vh;
 
   font-family: 'Rowdies', cursive;
   font-weight: 200;
@@ -67,14 +63,12 @@ main p {
   color: #FFFFFF;
 }
 
-
-
 .zoom-in-zoom-out {
   position: absolute;
   width: 240px;
   height: 240px;
-  left: 110vh;
-  top: 36vh;
+  left: 115vh;
+  top: 39vh;
   background-image: url(Foto.jpg);
   border-radius: 255px;
   animation: zoom-in-zoom-out 5s ease-out infinite;
@@ -107,34 +101,6 @@ main p {
   border-radius: 15px;
 }
 
-footer a {
-  position: absolute;
-  width: 200vh;
-  bottom: 5vh;
-  height: 20px;
-  left: 2vw;
-
-
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.25em;
-  text-decoration: none;
-
-  color: #FFFF00;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-footer :hover {
-  position: absolute;
-  color: royalblue;
-}
-
-
 @media only screen and (max-width: 480px) {
   body {
     background-image: url(celwpp.jpg);
@@ -145,66 +111,71 @@ footer :hover {
   }
 
   #logo {
-    width: 50vw;
-    height: 18vh;
-    left: 25vw;
-    top: 6vh;
+    width: 70vw;
+    height: 28vh;
+    left: 10vw;
+    top: 12vh;
+  }
+
+  header {
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  header ul {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  header ul li {
+    display: inline-flex;
+    vertical-align: middle;
+    padding: 15px;
+    flex-direction: column-reverse;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #333333;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  
+  ul li :hover {
+    color: #000000;
   }
 
   main p {
-    width: 90vw;
+    width: 80vw;
     height: auto;
-    left: 5vw;
-    top: 33vh;
-    font-size: 14px;
+    left: 10vw;
+    top: 45vh;
+    font-size: 28px;
     line-height: 28px;
   }
 
   .background {
     width: 90vw;
-    height: 30vh;
-    left: 5vw;
-    top: 31vh;
+    height: 91vh;
+    left: 6vw;
+    top: 47vh;
   }
 
-  .background2 {
-    width: 90vw;
-    height: 28vh;
-    left: 5vw;
-    top: 62vh;
-  }
-
-  .background3 {
-    width: 30vw;
-    height: 30vw;
-    left: 17vw;
-    top: 100vh;
-    border-radius: 50%;
-  }
-
-  .background4 {
-    width: 30vw;
-    height: 30vw;
-    left: 57vw;
-    top: 100vh;
-    border-radius: 50%;
-  }
-
-  .background5 {
-    width: 30vw;
-    height: 30vw;
-    left: 17vw;
-    top: 117vh;
-    border-radius: 50%;
-
-  }
-
-  .background6 {
-    width: 30vw;
-    height: 30vw;
-    left: 57vw;
-    top: 117vh;
-    border-radius: 50%;
+  .zoom-in-zoom-out {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 11vh;
+    top: 99vh;
+    background-image: url(Foto.jpg);
+    border-radius: 255px;
+    animation: zoom-in-zoom-out 5s ease-out infinite;
+    background-position: center;
+    background-size: cover;
   }
 
   header ul li a {
